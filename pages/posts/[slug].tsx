@@ -1,16 +1,17 @@
-import { useRouter } from 'next/router'
-import ErrorPage from 'next/error'
-import Container from '../../components/container'
-import PostBody from '../../components/post-body'
-import Header from '../../components/header'
-import PostHeader from '../../components/post-header'
-import Layout from '../../components/layout'
-import { getPostBySlug, getAllPosts } from '../../lib/api'
-import PostTitle from '../../components/post-title'
-import Head from 'next/head'
+import { getAllPosts, getPostBySlug } from '../../lib/api'
+
 import { CMS_NAME } from '../../lib/constants'
-import markdownToHtml from '../../lib/markdownToHtml'
+import Container from '../../components/container'
+import ErrorPage from 'next/error'
+import Head from 'next/head'
+import Header from '../../components/header'
+import Layout from '../../components/layout'
+import PostBody from '../../components/post-body'
+import PostHeader from '../../components/post-header'
+import PostTitle from '../../components/post-title'
 import PostType from '../../types/post'
+import markdownToHtml from '../../lib/markdownToHtml'
+import { useRouter } from 'next/router'
 
 type Props = {
   post: PostType
@@ -34,9 +35,9 @@ const Post = ({ post, morePosts, preview }: Props) => {
             <article className="mb-32">
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title} | petepittawat.dev
                 </title>
-                <meta property="og:image" content={post.ogImage.url} />
+                {/* <meta property="og:image" content={post.ogImage.url} /> */}
               </Head>
               <PostHeader
                 title={post.title}

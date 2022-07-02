@@ -1,4 +1,3 @@
-import { CMS_NAME } from '../lib/constants'
 import Container from '../components/container'
 import Head from 'next/head'
 import HeroPost from '../components/hero-post'

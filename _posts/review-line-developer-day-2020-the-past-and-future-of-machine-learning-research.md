@@ -3,6 +3,12 @@ title: "Review: LINE Developer Day 2020 - The past and future of machine learnin
 slug: review-line-developer-day-2020-the-past-and-future-of-machine-learning-research
 date: '2021-02-04T03:47:49.000Z'
 tags: AI, Computer Science
+coverImage: /assets/blog/review-line-developer-day-2020-the-past-and-future-of-machine-learning-research/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/review-line-developer-day-2020-the-past-and-future-of-machine-learning-research/cover.jpeg
 excerpt: ใน Session นี้ คุณ​ Masashi Sugiyama ได้มาพูดถึงใน 3 ประเด็นหลัก ๆ ด้วยกัน นั่นคือ Trend in ML Research, Our Research, Future ML Research
 ---
 

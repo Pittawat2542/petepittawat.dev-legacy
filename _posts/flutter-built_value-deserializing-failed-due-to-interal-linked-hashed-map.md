@@ -3,6 +3,12 @@ title: "Flutter: วิธีแก้ปัญหาใช้ built_value แ�
 slug: flutter-built_value-deserializing-failed-due-to-interal-linked-hashed-map
 date: '2020-12-31T14:00:18.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-built_value-deserializing-failed-due-to-interal-linked-hashed-map/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-built_value-deserializing-failed-due-to-interal-linked-hashed-map/cover.jpeg
 ---
 
 `built_value` Package ขวัญใจใครหลาย ๆ คน นี่เป็นหนึ่งใน Source Gen ที่ได้รับความนิยมมากที่สุด Package หนึ่งของชาว Flutter Developer อย่างไรก็ตามการทำงานกับมันอาจไม่ง่ายนัก และไม่ใช่ทุก Error Message ที่อ่านเข้าใจได้ง่าย

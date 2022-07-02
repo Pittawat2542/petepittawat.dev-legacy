@@ -3,6 +3,12 @@ title: "Dart: Sound Null Safety กำลังมาใน Dart 2.9!"
 slug: dart-sound-null-safety
 date: '2020-06-11T10:50:00.000Z'
 tags: Dart
+coverImage: /assets/blog/dart-sound-null-safety/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/dart-sound-null-safety/cover.jpeg
 ---
 
 ## Null safety มันดียังไง?

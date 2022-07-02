@@ -3,6 +3,12 @@ title: "JS: Event Bubbling and Capture"
 slug: js-event-bubbling-capture
 date: '2021-03-13T15:11:06.000Z'
 tags: JavaScript, Web
+coverImage: /assets/blog/js-event-bubbling-capture/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/js-event-bubbling-capture/cover.jpeg
 ---
 
 Event ถือได้ว่าเป็นหนึ่งในหลักสำคัญสำหรับการเขียนโปรแกรมด้วยภาษา JavaScript สำหรับการทำงานกับ Browser เพราะ Event ทำให้เราสามารถสร้าง Event handler (callback) สำหรับทำงานเมื่อมี Event ที่เราสนใจเกิดขึ้นนั่นเอง

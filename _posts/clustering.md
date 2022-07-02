@@ -3,6 +3,12 @@ title: K-Means Clustering VS Hierarchical Clustering สองอย่างน
 slug: clustering
 date: '2020-10-31T09:28:06.000Z'
 tags: AI, Data Science
+coverImage: /assets/blog/clustering/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/clustering/cover.jpeg
 ---
 
 สำหรับ Unsupervised Learning แล้ว เราคงหนีไม่พ้นการทำ Clustering เพื่อหากลุ่มตามธรรมชาติของข้อมูล ซึ่งทำให้เราสามารถเข้าใจและได้ Insight ใหม่ ๆ จากข้อมูลเหล่านั้น ตัวอย่างในการทำ Clustering ที่เรามักพบเห็นได้บ่อยก็จะเป็น K-Means Clustering และ Hierarchical Clustering ซึ่งทั้งสองตัวนั้นทำงานอยู่บนพื้นฐานของ Proximity Value 

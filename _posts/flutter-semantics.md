@@ -3,6 +3,12 @@ title: "Flutter: Semantics"
 slug: flutter-semantics
 date: '2020-07-07T11:45:12.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-semantics/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-semantics/cover.jpeg
 ---
 
 Application ที่ดี คือ Application ที่ทุกคนสามารถเข้าถึงแล้วใช้งานได้ Accessibility เป็นหนึ่งในเรื่องสำคัญที่ไม่เพียงแต่แสดงให้เห็นว่าเราเชื่อมั่นในความเท่าเทียมกันเท่านั้น แต่ในเชิงธุรกิจยังถือว่าเป็นการเปิดโอกาสใหม่ ๆ ในการเพิ่มฐานลูกค้าอีกด้วย ดังนั้นในบทความนี้จะพาทุกคนไปรู้จักกับ `Semantics` ซึ่งเป็นหนึ่งใน Widget ที่เกี่ยวข้องกับ Accessibility โดยเฉพาะผู้ใช้งานที่ใช้ Screen reader

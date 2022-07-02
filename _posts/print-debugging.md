@@ -3,6 +3,12 @@ title: Print Debugging ทำแบบนี้ดีไหมนะ?
 slug: print-debugging
 date: '2020-08-07T05:33:24.000Z'
 tags: Computer Science
+coverImage: /assets/blog/print-debugging/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/print-debugging/cover.jpeg
 ---
 
 การพัฒนาโปรแกรมกับบัคนั้นอาจเรียกได้ว่าเป็นของคู่กัน ไม่ว่าเราจะตั้งใจหรือไม่ก็ตาม บัคก็มีอยู่หลายแบบ หลายประเภท หากเป็นบัคที่เราพิมพ์ผิด Syntax หรือบัคตระกูล Compile-time Error แบบนี้เราอาจจะแก้ไขได้ง่าย เพราะว่า Compiler จะบอกเราถึงจุดที่เราผิด รวมทถึงในบางครั้งก็แนะนำวิธีแก้ให้กับเราเรียบร้อย

@@ -3,6 +3,12 @@ title: pub.dev เวอร์ชันใหม่มาแล้ว!
 slug: pub-dev-new-version-jul-2020
 date: '2020-07-16T13:07:33.000Z'
 tags: Flutter, Dart, News
+coverImage: /assets/blog/pub-dev-new-version-jul-2020/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/pub-dev-new-version-jul-2020/cover.jpeg
 ---
 
 [pub.dev](https://pub.dev) เว็บไซต์คู่ใจนักพัฒนาที่ใช้ภาษา Dart และ Framework อย่าง Flutter สำหรับใช้ในการค้นหา Package/Plugin ต่าง ๆ เพื่อนำมาใช้งานใน Application ของเรา โดยที่ไม่ต้องเขียนโค้ดเองทั้งหมด ในวันนี้ได้มีการอัพเดทเวอร์ชันใหม่ของเว็บไซต์ ซึ่งไม่เพียงแค่รูปลักษณ์ที่เปลี่ยนไปเท่านั้น แต่ยังมีฟีเจอร์อำนวยความสะดวกใหม่ ๆ เพิ่มขึ้นด้วย!

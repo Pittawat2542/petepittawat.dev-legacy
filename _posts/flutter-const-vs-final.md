@@ -3,6 +3,12 @@ title: "Flutter: const vs final ใช้ยังไงดี!"
 slug: flutter-const-vs-final
 date: '2020-05-24T13:15:20.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-const-vs-final/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-const-vs-final/cover.jpeg
 ---
 
 หลาย ๆ คนถ้าได้เขียน Flutter มาสักพัก จะพบกับความแปลกประหลาดอย่างหนึ่งที่ไม่เหมือนภาษาอื่น นั่นก็คือ Dart ซึ่งเป็น programming language ของ Flutter มีทั้ง `const` และ `final` แล้วแบบนี้เราควรจะใช้ตัวไหนเมื่อไรดีละ!

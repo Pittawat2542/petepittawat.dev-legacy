@@ -3,6 +3,12 @@ title: "Dart: เขียนโค้ดให้ดีขึ้นด้วย
 slug: dart-write-better-code-with-analysis-option-file
 date: '2020-12-26T07:07:30.000Z'
 tags: Dart
+coverImage: /assets/blog/dart-write-better-code-with-analysis-option-file/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/dart-write-better-code-with-analysis-option-file/cover.jpeg
 ---
 
 การพัฒนาซอฟแวร์นั้นไม่เพียงแต่เป็นศาสตร์ที่ต้องใช้องค์ความรู้เท่านั้น หากแต่เป็นศิลป์ในการร้อยเรียงถ้อยคำเพื่อสั่งงานเครื่องจักรกลให้ทำงานตามที่เราต้องการด้วย แน่นอนว่าการพัฒนาซอฟต์แวร์ด้วยตัวคนเดียวนั้น เราจะเขียนโค้ดอย่างไร สไตล์ไหนก็ไม่มีใครว่า หากแต่เมื่อต้องทำงานเป็นทีมแล้ว สไตล์ในการเขียนโค้ดของคุณอาจทำให้คนอื่นในทีมตกตะลึงก็เป็นได้

@@ -3,6 +3,12 @@ title: "Flutter: เลขเวอร์ชันของ Flutter มีคว
 slug: flutter-version-number
 date: '2020-08-29T08:03:56.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-version-number/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-version-number/cover.jpeg
 ---
 
 เมื่อช่วงต้นปี (2020) ที่ผ่านมา Flutter ได้มีการปรับระบบการออกอัพเดท รวมถึงการตั้งเลขเวอร์ชันใหม่ เพื่อให้นักพัฒนาสามารถเข้าใจได้ง่ายขึ้น และผู้ที่สนใจจะช่วยก็สามารถช่วยร่วมพัฒนา Flutter ได้ง่ายขึ้นเช่นกัน

@@ -2,6 +2,12 @@
 title: About Me
 slug: about
 date: '2020-07-20T05:33:00.000Z'
+coverImage: /assets/blog/authors/pittawat.jpg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/authors/pittawat.jpg
 ---
 
 ![](__GHOST_URL__/content/images/2020/07/image.jpeg)

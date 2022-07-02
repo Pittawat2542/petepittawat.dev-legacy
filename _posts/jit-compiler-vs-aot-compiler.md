@@ -3,6 +3,12 @@ title: JIT Compiler VS AOT Compiler
 slug: jit-compiler-vs-aot-compiler
 date: '2020-06-30T12:38:13.000Z'
 tags: Computer Science
+coverImage: /assets/blog/jit-compiler-vs-aot-compiler/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/jit-compiler-vs-aot-compiler/cover.jpeg
 ---
 
 หลาย ๆ ครั้งที่เราเขียนโปรแกรมด้วยภาษาบางภาษา มักจะต้องการ Compiler เพื่อแปลงภาษานั้น ๆ ให้กลายเป็นอีกภาษาหนึ่ง เช่น TypeScript ที่จะถูก Compile ไปเป็น JavaScript หรือจาก Java ที่จะถูก Compile ไปเป็น Java Bytecode (ซึ่งถูกนำไปใช้รันใน JVM อีกที)

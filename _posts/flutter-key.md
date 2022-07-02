@@ -3,6 +3,12 @@ title: "Flutter: Key สำคัญยังไงกันนะ"
 slug: flutter-key
 date: '2020-05-30T13:36:41.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-key/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-key/cover.jpeg
 ---
 
 Key เป็นหนึ่งใน optional attribute ที่เราจะเห็นได้กับแทบทุก Widget ใน Flutter ซึ่งโดยทั่วไป เราก็มักจะไม่ได้ใส่ค่า Key เข้าไปโดยปกติ แล้วเวลาไหนบ้างละที่เราควรใช้ Key?

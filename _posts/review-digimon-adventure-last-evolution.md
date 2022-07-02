@@ -3,6 +3,12 @@ title: "Review: Digimon Adventure: Last Evolution Kizuna ถ้อยคำถ�
 slug: review-digimon-adventure-last-evolution
 date: '2020-07-20T05:39:54.000Z'
 tags: Review, Movie
+coverImage: /assets/blog/review-digimon-adventure-last-evolution/cover.jpg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/review-digimon-adventure-last-evolution/cover.jpg
 ---
 
 ![](__GHOST_URL__/content/images/2020/07/image-1.jpeg)Source: https://en.wikipedia.org/wiki/File:Digimon20key.jpg

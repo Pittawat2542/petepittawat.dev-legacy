@@ -3,6 +3,12 @@ title: คาดการณ์ Flutter Engage 2021
 slug: flutter-engage-2021-prediction
 date: '2021-02-20T13:17:55.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-engage-2021-prediction/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-engage-2021-prediction/cover.jpeg
 ---
 
 อีกไม่นานแล้วสำหรับ Flutter Engage งานใหญ่ประจำปีของ Flutter ที่จะมาอัพเดตรวมถึงปล่อยของใหม่ ๆ ออกมามากมาย ซึ่งในปีนี้จะจัดขึ้นแบบ Virtual ในวันที่ 3 มีนาคม 2564 เวลา 9:30AM - 1:30PM PST หรือค่ำวันที่ 3 เข้าเช้าวันที่ 4 มีนาคม 2564 เวลา 00:30 - 04:30 ตามเวลาประเทศไทย (GMT+7) ซึ่งแน่นอนว่าอาจจะดึก/เช้าไปสักนิดสำหรับหลาย ๆ คน แต่ไม่ต้องเป็นกังวลไปเพราะว่ามีย้อนหลังให้นั่นเอง สำหรับใครที่สนใจก็สามารถลงทะเบียนเพื่อรับข่าวสารได้ที่ [Flutter Website](https://events.flutter.dev)

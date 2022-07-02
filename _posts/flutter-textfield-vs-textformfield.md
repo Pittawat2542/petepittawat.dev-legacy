@@ -3,6 +3,12 @@ title: "Flutter: TextField vs TextFormField ใช้ตัวไหนดีน
 slug: flutter-textfield-vs-textformfield
 date: '2020-06-20T12:54:25.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-textfield-vs-textformfield/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-textfield-vs-textformfield/cover.jpeg
 ---
 
 `TextField` ถือเป็นหนึ่งใน Element ที่สำคัญในการพัฒนา Application ของเรา เพราะเป็นวิธีที่ผู้ใช้งานจะสามารถเพิ่มข้อมูลบางอย่างเข้ามาใน Application เราได้ ใน Flutter เองก็มี Widget ที่สนับสนุนเกี่ยวกับการสร้าง Form อย่างมากมาย รวมไปถึงยังสนับสนุนการเขียนโค้ดได้หลากหลายรูปแบบแล้วแต่ความถนัดของนักพัฒนาคนนั้น ๆ

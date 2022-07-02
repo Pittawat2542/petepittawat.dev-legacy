@@ -3,6 +3,12 @@ title: "Flutter: runZonedGuarded เอาไว้ทำอะไรนะ?"
 slug: flutter-runzoneguarded
 date: '2020-08-22T07:31:19.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-runzoneguarded/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-runzoneguarded/cover.jpeg
 ---
 
 เมื่อเราพัฒนาโปรแกรมขึ้นมานั้น ไม่ว่าจะในภาษาใดก็ตาม ข้อผิดพลาด (Error) เป็นสิ่งที่เราไม่อาจหลีกเลี่ยงได้ (Inevitable) แม้ว่าเราจะมั่นใจว่าเรานั้นพัฒนาโปรแกรมมาได้ดีเพียงใดก็ตาม ดังนั้นการแก้ไขข้อผิดพลาดของโปรแกรม (Debugging) จึงอาจถือได้ว่าเป็นหนึ่งในขั้นตอนที่มีความสำคัญอีกส่วนหนึ่งในการพัฒนาโปรแกรม

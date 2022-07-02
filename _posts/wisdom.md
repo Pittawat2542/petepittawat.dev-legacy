@@ -3,6 +3,12 @@ title: ปัญญา
 slug: wisdom
 date: '2021-07-03T14:21:43.000Z'
 tags: General
+coverImage: /assets/blog/wisdom/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/wisdom/cover.jpeg
 excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom น่าจะเป็นคำที่หลาย ๆ คนคุ้นหูกันเป็นอย่างดี แต่อย่างไรก็ตามก็เป็นที่น่าสงสัยสำหรับผู้เขียนเอง ถึงความหมายที่แท้จริงของคำ ๆ นี้ หลากหลายคำถามเกิดขึ้นมา
 ---
 

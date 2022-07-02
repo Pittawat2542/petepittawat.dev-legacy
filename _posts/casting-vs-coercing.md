@@ -3,6 +3,12 @@ title: Casting vs Coercing
 slug: casting-vs-coercing
 date: '2020-07-12T12:59:44.000Z'
 tags: Computer Science
+coverImage: /assets/blog/casting-vs-coercing/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/casting-vs-coercing/cover.jpeg
 ---
 
 แทบทุกโปรแกรมที่เราเขียนกันขึ้นมา เราคงหนีไม่พ้นการเปลี่ยนประเภทของตัวแปร/ค่านั้น ๆ (Type conversion) ไม่ว่าจะเปลี่ยนเพื่อให้ทำงานได้ง่ายขึ้น หรือเพราะต้องการนำไปใช้กับ Third-party library จริง ๆ แล้ว การเปลี่ยนประเภทตัวแปรนั้น แบ่งออกได้เป็นสองแบบหลัก ๆ นั่น ก็คือ Casting และ Coercing ในบทความนี้จะพาไปดูว่าสองแบบนี้ต่างกันอย่างไรบ้าง

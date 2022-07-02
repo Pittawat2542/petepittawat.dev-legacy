@@ -3,6 +3,12 @@ title: "Flutter: Triage Labels (Aug. 2020)"
 slug: flutter-triage-label
 date: '2020-08-01T06:46:47.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-triage-label/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-triage-label/cover.jpeg
 ---
 
 ถ้าใครมีโอกาสได้ลองไปกดดู [Issues ของ Flutter บน GitHub](https://github.com/flutter/flutter/issues) คงได้เห็น Label มากมาย มีทั้งอันที่อ่านเข้าใจได้ทันที และอันที่อ่านแล้วไม่เข้าใจ ซึ่งอันที่อ่านแล้วไม่เข้าใจส่วนใหญ่นั้น เป็น Triage เป็นหลัก อันได้แก่ P0, P1, P2, P3, P4, P5, P6 ในบทความนี้เราจะมาดูกันว่าแต่ละตัวมีความหมายอย่างไรบ้าง เผื่อใครที่อยากรู้ว่าในอนาคตอันใกล้ Next Release ของ Flutter จะมีอะไรบ้าง หรืออยากช่วย Contribute ให้กับ Flutter

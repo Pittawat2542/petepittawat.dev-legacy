@@ -3,6 +3,12 @@ title: "Flutter: BuildContext Deep Dive รู้ให้ลึกกับ Bui
 slug: flutter-buildcontext-deep-dive
 date: '2020-09-19T12:37:14.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-buildcontext-deep-dive/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-buildcontext-deep-dive/cover.jpeg
 ---
 
 `BuildContext` สิ่งที่ปรากฎตัวแทบทุกที่ในโค้ดของเรา และเป็นสิ่งที่นักพัฒนา Flutter ต้องใช้ชีวิตอยู่กับมันให้ได้ หลายครั้งบางคนก็อาจไม่เข้าใจว่าเราจะใช้ Context ไปทำไม แต่นี่ไม่ใช่คอนเซปใหม่เลย ในหลายภาษา Context ก็ไปปรากฎตัวเช่นเดียวกัน

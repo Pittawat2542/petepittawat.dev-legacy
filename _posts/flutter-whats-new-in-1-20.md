@@ -3,6 +3,12 @@ title: "Flutter: อัพเดทจัดเต็มกับ Flutter 1.20, 
 slug: flutter-whats-new-in-1-20
 date: '2020-08-06T13:52:09.000Z'
 tags: Dart, Flutter, News
+coverImage: /assets/blog/flutter-whats-new-in-1-20/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-whats-new-in-1-20/cover.jpeg
 ---
 
 เมื่อวานนี้เอง (5/8/2020) ที่ทาง Flutter ได้ทำการปล่อยอัพเดทใหญ่ออกมาในชื่อ Flutter 1.20 ซึ่งถือว่าเป็นอัพเดทที่ใหญ่ที่สุดที่ Flutter เคยปล่อยออกมา โดยในเวอร์ชันนี้ยังมาพร้อมกับ Dart 2.9.0 และ Dart DevTools เวอร์ชันใหม่ 0.9.0 ที่มากันแบบเต็ม ๆ รวมไปถึงการอัพเดท Plugin สำหรับ IDE ต่าง ๆ อีกด้วย รายละเอียดจะเป็นอย่างไรบ้างนั้น ไปติดตามกันเลย

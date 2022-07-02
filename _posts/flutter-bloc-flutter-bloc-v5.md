@@ -3,6 +3,12 @@ title: "Flutter: bloc และ flutter_bloc v5 มาแล้ว!"
 slug: flutter-bloc-flutter-bloc-v5
 date: '2020-07-07T12:09:33.000Z'
 tags: Flutter, News
+coverImage: /assets/blog/flutter-bloc-flutter-bloc-v5/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-bloc-flutter-bloc-v5/cover.jpeg
 ---
 
 หลาย ๆ คนที่เลือก BLoC เป็นแนวทางในการ Manage State ภายใน Application คงหนีไม่พ้นที่จะต้องใช้ Packages `bloc` และ `flutter_bloc` ซึ่งช่วยให้เรามี Boilerplate code ลดลง โดยตอนนี้ bloc ก็ได้มีการอัพเดทครั้งใหญ่ (Major version update) เป็นเวอร์ชัน 5 เป็นที่เรียบร้อย ในบทความนี้จะพาทุกคนไปดูกันว่ามีการเปลี่ยนแปลงอะไรบ้าง

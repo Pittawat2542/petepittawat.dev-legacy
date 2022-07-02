@@ -2,6 +2,12 @@
 title: "Flutter: วิเคราะห์อนาคตของ Flutter 2.2+"
 slug: future-of-flutter-may-2021
 date: '2021-05-22T14:55:19.000Z'
+coverImage: /assets/blog/future-of-flutter-may-2021/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/future-of-flutter-may-2021/cover.jpeg
 tags: Flutter, Dart
 ---
 

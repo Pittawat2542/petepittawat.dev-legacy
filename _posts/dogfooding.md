@@ -3,6 +3,12 @@ title: "Dogfooding: หนึ่งในรูปแบบการพัฒน
 slug: dogfooding
 date: '2020-08-01T07:28:56.000Z'
 tags: Product
+coverImage: /assets/blog/dogfooding/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/dogfooding/cover.jpeg
 ---
 
 โลกของการพัฒนาผลิตภัณฑ์และบริการในปัจจุบันนั้นมีแนวคิดต่าง ๆ เกิดขึ้นใหม่มากมาย เพื่อช่วยให้ธุรกิจสามารถดำเนินการได้มีประสิทธิภาพมากยิ่งขึ้น Dogfooding ก็เป็นหนึ่งในแนวคิดเหล่านั้นเช่นกัน

@@ -3,6 +3,12 @@ title: Parameter VS Argument มันต่างกันยังไงนะ
 slug: parameter-vs-argument
 date: '2020-05-27T14:36:46.000Z'
 tags: Computer Science
+coverImage: /assets/blog/parameter-vs-argument/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/parameter-vs-argument/cover.jpeg
 ---
 
 ## TLDR;

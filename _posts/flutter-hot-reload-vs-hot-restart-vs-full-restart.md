@@ -3,6 +3,12 @@ title: "Flutter: Hot Reload vs Hot Restart vs Full Restart"
 slug: flutter-hot-reload-vs-hot-restart-vs-full-restart
 date: '2020-06-27T11:45:34.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-hot-reload-vs-hot-restart-vs-full-restart/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-hot-reload-vs-hot-restart-vs-full-restart/cover.jpeg
 ---
 
 หนึ่งในข้อได้เปรียบของการพัฒนา Mobile Application บน Flutter คือ Hot Reload ที่ช่วยให้การพัฒนา UI ในโลกของ Mobile Application Development เป็นไปได้ด้วยดียิ่งขึ้น เพราะเราะสามารถเหตุผลลัพธ์ได้(เกือบจะ)ทันทีที่มีการบันทึกไฟล์โค้ดของเรา ซึ่งเป็นผลมาจากทีมที่พัฒนา Flutter นั้น แต่เดิมเป็นทีมที่พัฒนาเกี่ยวกับเว็บซึ่งมีการแสดงผลอย่างทันทีที่มีการบันทึกไฟล์ และต้องการจะนำประสบการณ์แบบเดียวกันมาสู่การพัฒนาแอปพลิเคชันบนอุปกรณ์เคลื่อนที่นั่นเอง

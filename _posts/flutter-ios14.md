@@ -3,6 +3,12 @@ title: "Flutter: อนาคตของ Flutter กับ iOS 14"
 slug: flutter-ios14
 date: '2020-07-27T08:13:26.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-ios14/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-ios14/cover.jpeg
 ---
 
 ประมาณ 1 เดือนก่อนหน้า Apple ได้จัดงาน WWDC2020 ซึ่งได้มีการเปิดตัวระบบปฏิบัติการเวอร์ชันใหม่ ๆ สำหรับผลิตภัณฑ์ต่าง ๆ โดยได้มีการปล่อยเวอร์ชัน Beta ออกมา เพื่อให้นักพัฒนาได้นำไปทดสอบว่า iOS 14 จะไม่มีปัญหากับแอปพลิเคชันในปัจจุบัน โดยในสังคมของนักพัฒนา Flutter เองก็ได้มีหลายสิ่งที่น่าสนใจเกิดขึ้นกับ iOS 14 ที่กำลังมาถึง จะมีอะไรบ้างนั้น ไปติดตามกันได้เลย

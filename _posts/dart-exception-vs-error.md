@@ -3,6 +3,12 @@ title: "Dart: Exception VS Error"
 slug: dart-exception-vs-error
 date: '2020-06-07T13:41:45.000Z'
 tags: Dart
+coverImage: /assets/blog/dart-exception-vs-error/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/dart-exception-vs-error/cover.jpeg
 ---
 
 แน่นอนว่าการเขียนโปรแกรมนั้นเราคงคาดหวังแต่ Happy Path ไม่ได้ หลายครั้งที่เราต้องคิดเผื่อเหตุการณ์ที่ไม่ได้เป็นไปในทางที่เราคาดหวังด้วย ซึ่งแน่นอนละว่าวิธีทั่วไปที่เราใช้กันในการรับมือกับเหตุการณ์ไม่คาดหวังก็คือ Error และ Exception นั่นเอง แต่สองคำนี้มันต่างกันยังไงละ?

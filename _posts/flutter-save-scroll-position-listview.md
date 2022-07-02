@@ -3,6 +3,12 @@ title: "Flutter: จดจำตำแหน่งการ Scroll ใน ListVi
 slug: flutter-save-scroll-position-listview
 date: '2020-05-27T15:06:45.000Z'
 tags: Flutter
+coverImage: /assets/blog/flutter-save-scroll-position-listview/cover.jpeg
+author:
+  name: Pittawat Taveekitworachai
+  picture: /assets/blog/authors/pittawat.jpg
+ogImage:
+  url: /assets/blog/flutter-save-scroll-position-listview/cover.jpeg
 ---
 
 หลาย ๆ คนคงเคยใช้แอพพลิเคชันที่จดจำตำแหน่งที่เรา scroll ไว้ เมื่อเราเปลี่ยนแท็บและกลับมาที่แท็บเดิม เช่น Facebook เป็นต้น

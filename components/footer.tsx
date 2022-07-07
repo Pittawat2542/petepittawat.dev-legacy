@@ -1,4 +1,5 @@
 import Container from './container';
+import Image from 'next/image';
 
 const Footer = () => {
 	return (
@@ -13,7 +14,7 @@ const Footer = () => {
 							href='https://webring.wonderful.software#petepittawat.dev'
 							title='วงแหวนเว็บ'
 						>
-							<img
+							<Image
 								alt='วงแหวนเว็บ'
 								width='32'
 								height='32'

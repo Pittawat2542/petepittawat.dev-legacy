@@ -21,7 +21,9 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 ---
 
 ## ปัญญาคืออะไร? (What is wisdom?)
-![](https://images.unsplash.com/photo-1587876931567-564ce588bfbd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDR8fHdpc2RvbXxlbnwwfHx8fDE2MjUzMjE3Njk&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)Photo by [Josh Hild](https://unsplash.com/@joshhild?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1587876931567-564ce588bfbd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDR8fHdpc2RvbXxlbnwwfHx8fDE2MjUzMjE3Njk&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)
+
 พจนานุกรม ฉบับราชบัณฑิตยสถาน พ.ศ.๒๕๕๔ ได้ให้ความหมายของคำว่า**ปัญญา**ไว้ว่า
 
 > น. ความรอบรู้, ความรู้ทั่ว, ความฉลาดเกิดแต่เรียนและคิด, เช่น คนมีปัญญา หมดปัญญา. (ป.).
@@ -37,7 +39,9 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 ---
 
 ## ปัญญาเป็นที่เราสามารถถ่ายถอดได้หรือไม่? (Is it transferable?)
-![](https://images.unsplash.com/photo-1491439996916-067ed99cba60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDZ8fHRlYWNofGVufDB8fHx8MTYyNTMyMTc5NA&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)Photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1491439996916-067ed99cba60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDZ8fHRlYWNofGVufDB8fHx8MTYyNTMyMTc5NA&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)
+
 ลองมาดูอีกมุมมองหนึ่งของปัญญาจากพจนานุกรมต่างประเทศกันบ้าง โดยผู้เขียนเองได้เลือก Oxford Learner's Dictionaries มาในทีนี้โดย ได้ให้ความหมายของปัญญาไว้ว่า
 
 > *(noun) *the ability to make sensible decisions and give good advice because of the experience and knowledge that you have
@@ -45,11 +49,15 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 อ้างอิง: [Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/wisdom?q=wisdom)
 
 จะเห็นได้ว่าความหมายนี้นั่นค่อนข้างน่าสนใจ เราสามารถแบ่งมันออกมาได้เป็นสองส่วน
-![](https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fGxlYWRlcnxlbnwwfHx8fDE2MjUzMjE4MzQ&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fGxlYWRlcnxlbnwwfHx8fDE2MjUzMjE4MzQ&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)
+
 1. the ability to make sensible decisions
 
 นั่นหมายความว่าปัญญานั้น คือ**การตัดสินใจอย่างสมเหตุสมผล** นั่นหมายความว่า คนที่จะมีภูมิปัญญาในเรื่องนั้น ๆ ต้องมีเหตุผลมารองรับการตัดสินใจของตนเอง
-![](https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGFkdmljZXxlbnwwfHx8fDE2MjUzMjE4NTE&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)Photo by [LinkedIn Sales Solutions](https://unsplash.com/@linkedinsalesnavigator?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGFkdmljZXxlbnwwfHx8fDE2MjUzMjE4NTE&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)
+
 2. (the ability to) give good advice because of the experience and knowledge that you have
 
 ส่วนในความหมายนี้นั้น ปัญญานั้นอาจบอกเล่าในอีกแง่มุมหนึ่งได้ถึงการที่สามารถมอบ**คำแนะนำ** ซึ่งเกิดจาก*ประสบการณ์*หรือ*ความรู้*ที่ตนมี จะเห็นได้ว่าในความหมายนี้นั้นค่อนข้างน่าสนใจ เพราะนั่นหมายความว่าคำแนะนำที่เราสามารถมอบให้กันได้นั้นจัดได้ว่าเป็นปัญญาเช่นกัน แน่นอนว่านิยามนั้นไม่ได้ระบุอย่างชัดเจนว่าเมื่อปัญญาถูกถ่ายทอดออกไปแล้ว ผู้รับสารนั้นจะสามารถสร้างเป็นปัญญาของตนได้หรือไม่
@@ -63,9 +71,10 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 ---
 
 ## ปัญญาต่างไปอย่างไรกับความรู้? (Wisdom vs Knowledge)
-![](https://images.unsplash.com/photo-1522211988038-6fcbb8c12c7e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGtub3dsZWRnZXxlbnwwfHx8fDE2MjUzMjE4Njg&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)Photo by [matthew Feeney](https://unsplash.com/@matt__feeney?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+![](https://images.unsplash.com/photo-1522211988038-6fcbb8c12c7e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGtub3dsZWRnZXxlbnwwfHx8fDE2MjUzMjE4Njg&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)
+
 หากต้องการจะตอบคำถามนี้อย่างแน่ชัด คงเลี่ยงไม่ได้ที่จะต้องยกนิยามของทั้งสองคำมาเปรียบเทียบกัน
-ความรู้ (Knowledge)ปัญญา (Wisdom)(noun) the information, understanding and skills that you gain through education or experience(noun) the ability to make sensible decisions and give good advice because of the experience and knowledge that you have
+ความรู้ (Knowledge) ปัญญา (Wisdom)(noun) the information, understanding and skills that you gain through education or experience(noun) the ability to make sensible decisions and give good advice because of the experience and knowledge that you have
 อ้างอิง: [[Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/knowledge?q=knowledge)](https://www.oxfordlearnersdictionaries.com/definition/english/wisdom?q=wisdom)
 
 เป็นที่น่าสนใจว่าความรู้นั้นถูกให้นิยามไว้ว่า คือ **ข้อมูล****ความเข้าใจ** และ**ทักษะ** ที่สามารถได้รับผ่าน**การเรียน**หรือ**ประสบการณ์** จะเห็นได้ว่านิยามนี้นั้นค่อนข้างใกล้เคียงกับความหมายของปัญญาในพจนานุกรม ฉบับราชบัณฑิตยสถาน พ.ศ.๒๕๕๔
@@ -75,7 +84,9 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 ---
 
 ## เราสามารถจัดประเภทของปัญญาได้รึเปล่า? (Do the wisdom have category?)
-![An old book store from the city of Bilbao.](https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGxpYnJhcnl8ZW58MHx8fHwxNjI1MzIxODg0&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)Photo by [Iñaki del Olmo](https://unsplash.com/@inakihxz?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![An old book store from the city of Bilbao.](https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fGxpYnJhcnl8ZW58MHx8fHwxNjI1MzIxODg0&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=2000)
+
 มีงานวิจัยหลากหลายชิ้นที่พยายามศึกษาเกี่ยวกับปัญญาของมนุษย์ และนักวิจัยหลาย ๆ ท่านเองก็พยายามจัดประเภทของปัญญาเช่นกัน ซึ่ง[หนึ่งในนั้น](https://www.researchgate.net/publication/254311648_Sophia_and_Phronesis_in_Psychology_Philosophy_and_Traditional_Wisdom_INTRODUCTION)เองก็นำเสนอคำที่ค่อนข้างน่าสนใจ นั่นคือคำว่า Sophia และ Phronesis
 
 - Sophia คือ ปัญญาโดยทั่ว ๆ ไป หรือปัญญาที่มีลักษณะเป็นนามธรรม อาจจะเป็นความรู้ ความเข้าใจในเรื่อง ๆ หนึ่ง หรือเป็นสิ่งที่ต่อยอดมาจากความรู้ (Knowledge)
@@ -87,6 +98,6 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 
 ---
 
-## ****************************************************************************************************************************************************************************************************************************************************************************📚 Hope you enjoy reading! 📚****************************************************************************************************************************************************************************************************************************************************************************
+## *📚 Hope you enjoy reading! 📚*
 
 ---

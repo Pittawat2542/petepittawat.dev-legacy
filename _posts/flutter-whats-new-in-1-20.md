@@ -4,6 +4,7 @@ slug: flutter-whats-new-in-1-20
 date: '2020-08-06T13:52:09.000Z'
 tags: Dart, Flutter, News
 coverImage: /assets/blog/flutter-whats-new-in-1-20/cover.jpeg
+excerpt: เมื่อวานนี้เอง (5/8/2020) ที่ทาง Flutter ได้ทำการปล่อยอัพเดทใหญ่ออกมาในชื่อ Flutter 1.20 ซึ่งถือว่าเป็นอัพเดทที่ใหญ่ที่สุดที่ Flutter เคยปล่อยออกมา โดยในเวอร์ชันนี้ยังมาพร้อมกับ Dart 2.9.0 และ Dart DevTools เวอร์ชันใหม่ 0.9.0 ที่มากันแบบเต็ม ๆ รวมไปถึงการอัพเดท Plugin สำหรับ IDE ต่าง ๆ อีกด้วย รายละเอียดจะเป็นอย่างไรบ้างนั้น ไปติดตามกันเลย
 author:
   name: Pittawat Taveekitworachai
   picture: /assets/blog/authors/pittawat.jpg
@@ -29,13 +30,17 @@ ogImage:
 ## Fast - Performance Improvements
 
 หากใครที่เคยใช้งาน Flutter ในการพัฒนาแอปพลิเคชัน คงรู้กันดีถึงพลังของ Flutter ที่สามารถ Render ได้มากถึง 60 FPS หรือ 144 FPS หากหน้าจอนั้นรองรับ โดยที่ยังคงความสวยงาม และ Animation ต่าง ๆ เอาไว้ได้ โดยพื้นฐาน หรือหากมีปัญหาเกิดขึ้นก็มีเครื่องมือต่าง ๆ มาช่วยให้เราสามารถ Optimize ได้ง่าย
-![This is the first photo I am uploading to unsplash.com - I’ve been taking photos actively for the last 15 years, and despite having a vast collection of thousands of images from all parts of the world, I have never really sold any. I love the idea of sharing free images for those who cannot afford to pay for them. I also believe that those who can afford to pay for a photo, and appreciate the efforts of a photographer will be happy to compensate the photographer when they use one for commercial purposes. Here is a free image of a tree - if you use it, please follow my Instagram @niko.photos :)](https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [niko photos](https://unsplash.com/@niko_photos?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Icon Font Tree Shaking**
 
 โดยในเวอร์ชันนี้ Flutter ก็ได้พยายามปรับปรุงประสิทธิภาพเพิ่มขึ้นไปอีก ด้วยการนำ Icon Font Tree Shaking มาใช้เพื่อลดขนาดของแอปพลิเคชันลงด้วยการทำ Tree Shaking กับ Icon Font เพื่อลบไอคอนที่ไม่ได้ใช้งานในแอปพลิเคชันออกไป ส่งผลให้ App Bundle มีขนาดลดลง โดย Flutter ได้ทดสอบคร่าว ๆ ว่าลดไปได้ถึง 100kb สำหรับแอพตัวอย่างของ Flutter ที่ชื่อว่า [Gallery](https://gallery.flutter.dev/#/)
 
 โดยฟีเจอร์นี้นั้นจะถูกเปิดการใช้งานโดยปกติ นั่นหมายความว่าหากเรา Build Flutter App ด้วย Flutter 1.20 เราสามารถคาดหวังขนาดของ Application ที่ลดลงได้โดยไม่ต้องทำอะไรเลยนั่นเอง โดยตอนนี้ฟีเจอร์นี้ยังมีข้อจำกัดอยู่ที่ยังรองรับแค่ฟอนต์แบบ TrueType (.ttf) เท่านั้น โดยฟอนต์แบบอื่น ๆ จะได้รับการรองรับในอนาคต
-![](https://images.unsplash.com/photo-1530021595331-3fd4e9ae2115?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Matthew LeJune](https://unsplash.com/@matthewlejune?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1530021595331-3fd4e9ae2115?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Warm-up phase**
 
 ถึงแม้ว่าประสิทธิภาพของ Flutter จะดีเพียงใด แต่หลายครั้งโดยเฉพาะเวลาที่เราใช้งาน Animation เรามักพบกับสิ่งที่เรียกว่า Jank หรืออาการที่เฟรม ๆ หนึ่งใช้เวลาในการ Render นานเกินไปทำให้เมื่อ Render ทำให้ Skip Frame นั้นไป
@@ -45,7 +50,9 @@ ogImage:
 สำหรับวิธีนี้นั้นค่อนข้างจะ Advance และมี Use-case ที่ค่อนข้างจำเพาะเจาะจง นั่นคืออาการ Jank เฉพาะเมื่อ Animation รันครั้งแรก และ Smooth ตามปกติในครั้งถัด ๆ ไป อาการนี้มักเกิดจาก Shader Compilation นั่นเอง ซึ่งคำว่า Warm-up ในที่นี้หมายถึงการ Pre-compile ซึ่งสามารถเข้ามาช่วยเรื่องการ Compile ไม่ทันได้นั่นเอ
 
 โดยผู้ที่สนใจสามารถศึกษารายละเอียดเพิ่มเติมได้ที่ [Reduce shader compilation jank on mobile](https://flutter.dev/docs/perf/rendering/shader)
-![focus on the target](https://images.unsplash.com/photo-1581574919402-5b7d733224d6?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [engin akyurt](https://unsplash.com/@enginakyurt?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![focus on the target](https://images.unsplash.com/photo-1581574919402-5b7d733224d6?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Refined Mouse Hit Testing System**
 
 สำหรับการปรับปรุงในแง่ของประสิทธิภาพอันสุดท้ายในเวอร์ชันนี้ ค่อนข้างจะเกี่ยวข้องกับ Flutter for Desktop, Flutter for Web นั่นก็คือการปรับปรุงการวิเคราะห์ Hit Testing (ทดสอบว่า Mouse กดโดนอะไรบนหน้าจอ)
@@ -53,9 +60,9 @@ ogImage:
 โดยผลจาการทดสอบพบว่าสามารถเพิ่มประสิทธิภาพสำหรับเว็บในชุดการทดสอบได้มากถึง 15 เท่า ซึ่งนอกจากประสิทธิภาพที่ดียิ่งขึ้นแล้ว ยังมีความแม่นยำ (Accuracy) เพิ่มขึ้นอีกด้วย
 
 สำหรับของแถมที่ได้มากับประสิทธิภาพและความแม่นยำที่เพิ่มมากยิ่งขึ้นก็คือก็สนับสนุน Mouse Cursor นั่นเอง โดยในตอนนี้ Widget ต่าง ๆ จะสนับสนุน Cursor แบบต่าง ๆ แล้ว เช่น เมื่อนำ Mouse ไป Hover ที่ Form Field ก็จะเป็นตัว I หรือเมื่อนำ Mouse ไป Hover ที่ปุ่มก็จะเป็นรูปนิ้วชี้ ซึ่งเราสามารถกำหนดให้เป็นรูปแบบต่าง ๆ ที่มีได้เช่นกัน
-![close up bullseye on a dart board!
 
-Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/photo-1579019163248-e7761241d85a?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Anastase Maragos](https://unsplash.com/@visualsbyroyalz?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+![](https://images.unsplash.com/photo-1579019163248-e7761241d85a?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Dart 2.9**
 
 ในเวอร์ชันนี้ยังมาพร้อมกับ Dart 2.9 ซึ่งช่วยให้ประสิทธิภาพดียิ่งขึ้นอีกด้วย โดยจะกล่าวในรายละเอียดต่อไปในบทความ
@@ -65,11 +72,15 @@ Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/pho
 ## Beautiful - Autofill, New Widgets, Updated Widgets
 
 สำหรับความสวยงามก็คงหนีไม่พ้นเรื่องของ Widget ต่าง ๆ ซึ่งในเวอร์ชันนี้ไม่เพียงแต่ Widget ต่าง ๆ มีรูปร่างหน้าตาที่สวยงาม ทันสมัย และมีพฤติกรรมที่เหมาะสมมากยิ่งขึ้น โดยเฉพาะ Widget ตระกูล Material ที่มีการปรับปรุงให้ Widget เป็นไปตาม Guideline อยู่เสมอ
-![](https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Lenin Estrada](https://unsplash.com/@lenin33?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Autofill**
 
 ปฏิเสธไม่ได้ว่าในปัจจุบันเราพึ่งพา Autofill กันอย่างมากมายมหาศาล แต่ Flutter ก็ยังไม่เคย Support สักที จนกระทั่งเวอร์ชันนี้ที่ Autofill ได้มาถึงแล้วทั้ง iOS และ Android โดย Text Autofill ที่ใช้กับ Form Field จะสามารถทำได้ตามที่ตั้งใจไว้ ซึ่งจะช่วยให้ผู้ใช้ไม่ต้องกรอกข้อมูลซ้ำ ๆ เองบ่อย ๆ
-![Chess](https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Felix Mittermeier](https://unsplash.com/@felix_mittermeier?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![Chess](https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **InteractiveViewer**
 
 หลายครั้งที่เราต้องการ Interactive Area ใน Application ที่รองรับการ Pan, Zoom, Drag & Drop ตอนนี้เรามี Widget ที่ทำอย่างนั้นได้แล้วด้วย `InteractiveViewer`  โดยเฉพาะการ Drag & Drop ที่ตอนนี้เราสามารถได้ข้อมูลถึงตำแหน่งของ Widget ที่ถูก Drop ลงไปได้อีกด้วย ซึ่งปกติเราจะต้องเช้าถึงข้อมูลนี้จาก `Draggable` แต่ตอนนี้เราสามารถเข้าถึงจาก `DragTarget` ได้แล้วผ่าน `onAcceptDetails` สำหรับผู้ที่สนใจรายละเอียดเพิ่มเติมสามารถอ่านได้ [InteractiveViewer](https://api.flutter.dev/flutter/widgets/InteractiveViewer-class.html)
@@ -79,7 +90,9 @@ Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/pho
 โดย Widgets ต่าง ๆ ที่อัพเดทเหล่านี้จะมีหน้าตา/พฤติกรรมที่สอดคล้องกับ Material Guideline เวอร์ชันล่าสุดมากยิ่งขึ้น รวมถึงมีการปรับปรุงต่าง ๆ เพื่อทำให้ใช้งานได้ครอบคลุมมากยิ่งขึ้นอีกด้วย
 
 [Slider](https://api.flutter.dev/flutter/material/Slider-class.html), [RangeSlider](https://api.flutter.dev/flutter/material/RangeSlider-class.html) , [TimePicker](https://api.flutter.dev/flutter/material/showTimePicker.html), [DatePicker](https://api.flutter.dev/flutter/material/showDatePicker.html)
-![Android Phone](https://images.unsplash.com/photo-1512149673953-1e251807ec7c?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Pathum Danthanarayana](https://unsplash.com/@pathum_danthanarayana?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![Android Phone](https://images.unsplash.com/photo-1512149673953-1e251807ec7c?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Responsive `AboutDialog`**
 
 นอกจากนี้ยังมีการปรับปรุง `AboutDialog` ซึ่งเรามักใช้สำหรับโชว์ License ต่าง ๆ โดยเฉพาะ License ของ Package/Plugin ซึ่งตอนนี้จะมีหน้าตาที่ตาม Material Guideline มากยิ่งขึ้น รวมทั้งยังทำงานได้บนทุกอุปกรณ์ในรูปแบบที่สวยงาม และใช้งานง่ายได้อีกด้วย
@@ -91,7 +104,9 @@ Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/pho
 ## Productive - Improved DevTools, Safer Platform Channel, Updated IDE Plugins
 
 สำหรับในหมวด Productive ก็จะโฟกัสหลัก ๆ กันไปที่ DevTools และ Plugin สำหรับ IDE ต่าง ๆ แต่เราจะมาเริ่มกันด้วยความเปลี่ยนแปลงสำหรับ Package/Plugin Creator
-![JavaScript in progress](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Clément H](https://unsplash.com/@clemhlrdt?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![JavaScript in progress](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **ฟอร์แมตของ `pubspec.yaml`  แบบใหม่ ตอนนี้จำเป็นต่อการ Publish Package/Plugin ขึ้น pub.dev**
 
 หลังจากที่ Flutter ประกาศปรับฟอร์แมตของ `pubspec.yaml` มาได้สักพักใหญ่ (มาก)​ แล้วตอนนี้ก็ไม่รองรับฟอร์แมตแบบเดิมอีกต่อไป ในมุมมองส่วนตัวมองว่าสำหรับคนที่พึ่งเริ่มเขียน Package/Plugin ใหม่นั้นไม่ได้รับผลกระทบมากนัก เนื่องจากตัว `flutter create` ได้ใช้ฟอร์แมตแบบใหม่มาสักพักใหญ่แล้ว
@@ -100,17 +115,23 @@ Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/pho
 
 สำหรับผู้ใช้ Package/Plugin ก็ไม่ต้องเป็นกังวลไปเพราะ pub.dev จะยังคงสนับสนุน Package/Plugin ที่ใช้ฟอร์แมตเก่าและยังคงค้าอยู่บนเว็บต่อไปโดยไม่ได้อัพเดทฟอร์แมตต่อไปช่วงนี้
 ![“How wonderful it is to be able to write someone a letter! To feel like conveying your thoughts to a person, to sit at your desk and pick up a pen, to put your thoughts into words like this is truly marvelous.” 
-― Haruki Murakami, Norwegian Wood](https://images.unsplash.com/photo-1495522284885-41b9fc716455?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Annie Spratt](https://unsplash.com/@anniespratt?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+― Haruki Murakami, Norwegian Wood](https://images.unsplash.com/photo-1495522284885-41b9fc716455?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Typesafe Platform Channels**
 
-ยังคงอยู่กับเรื่องของ Package/Plugin เนื่องด้วยในปัจจุบันเราเห็น Plugin (Package ที่มีการใช้งาน Native Feature) เพิ่มขึ้นเป็นจำนวนมาก Flutter จะได้ทำการปล่อยโปรเจค Pigeon ออกมา โดย Pigeon เป็น Tools ที่ใช้สำหรับการอ่าน Syntax ของ Dart และ Generate Messaging Code ที่ใช้สำหรับติดต่อกับ Native ได้โดยที่เราไม่ต้องทำอะไรและการันตีความปลอดถัยให้อีกด้วย
+ยังคงอยู่กับเรื่องของ Package/Plugin เนื่องด้วยในปัจจุบันเราเห็น Plugin (Package ที่มีการใช้งาน Native Feature) เพิ่มขึ้นเป็นจำนวนมาก Flutter จะได้ทำการปล่อยโปรเจค Pigeon ออกมา โดย Pigeon เป็น Tools ที่ใช้สำหรับการอ่าน Syntax ของ Dart และ Generate Messaging Code ที่ใช้สำหรับติดต่อกับ Native ได้โดยที่เราไม่ต้องทำอะไรและการันตีความปลอดถัยให้อีกด้วย
 
 อย่างไรก็ตาม Pigeon ยังคงอยู่ในช่วง Pre-release เท่านั้น ดังนั้นอาจจะมี Breaking changes ได้ แต่ในแง่ของความ Stable แล้ว ต้องบอกว่าใช้ได้เลยทีเดียว เพราะทีมของ Flutter เองก็ได้ทดลองใช้ใน Plugin เช่น `video_player` แล้ว
-![](https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Robynne Hu](https://unsplash.com/@robynnexy?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **DevTools - Welcome Network Tracking**
 
-สิ่งที่เพิ่มเข้ามาใน DevTools ที่น่าสนใจก็คือเรื่องของ Network Tracking ที่จะช่วยให้เราสามารถเรียกใช้งาน Web Socket Profiling ทำให้ตอนนี้ DevTools สามารถโชว์รายละเอียดของ Request/Response ไม่ว่าจะเป็น HTTP หรือ WebSocket ได้แล้ว นอกจากนี้ยังสามารถ Monitor gRPC Traffic ได้อีกด้วย สำหรับรายละเอียดแบบเต็ม ๆ ของ DevTools จะกล่าวถึงอีกครั้งในบทความนี้
-![Some Variables](https://images.unsplash.com/photo-1518085250887-2f903c200fee?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Pankaj Patel](https://unsplash.com/@pankajpatel?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+สิ่งที่เพิ่มเข้ามาใน DevTools ที่น่าสนใจก็คือเรื่องของ Network Tracking ที่จะช่วยให้เราสามารถเรียกใช้งาน Web Socket Profiling ทำให้ตอนนี้ DevTools สามารถโชว์รายละเอียดของ Request/Response ไม่ว่าจะเป็น HTTP หรือ WebSocket ได้แล้ว นอกจากนี้ยังสามารถ Monitor gRPC Traffic ได้อีกด้วย สำหรับรายละเอียดแบบเต็ม ๆ ของ DevTools จะกล่าวถึงอีกครั้งในบทความนี้
+
+![Some Variables](https://images.unsplash.com/photo-1518085250887-2f903c200fee?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Visual Studio Code - Embedded Dart DevTools + Smarter than before**
 
 สำหรับคนที่ใช้ Visual Studio Code ในการพัฒนา Flutter ก็อาจจะยิ้มออกได้แล้วเสียที เนื่องจากตอนนี้ Flutter ได้ทำการพัฒนาในส่วนของการ Embedded Dart DevTools เข้าไปใน VS Code โดยตรง แต่อย่างไรก็ตามในส่วนนี้นั้นยังคงเป็น Preview อยู่ โดยผู้ที่สนใจสามารถ Enable ได้ โดยการเพิ่มบรรทัดนี้เข้าไปยัง `settings.json` ของ VS Code
@@ -120,7 +141,9 @@ Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/pho
 หากใช้งานแล้วเจอบัคอย่างไรก็อย่าลืม File Issues กันด้วย เพื่อให้ Extension ดียิ่ง ๆ ขึ้นไปอีก
 
 นอกเหนือไปจากการ Embedded DevTools เข้ามาใน VS Code โดยตรงแล้ว Flutter ยังได้เพิ่มความสามารถใหม่ที่หลายคนรอคอยมานาน เพราะ IDE อื่น ๆ ก็ทำได้ด้วยตัวของมันเองอยู่แล้ว นั่นก็คือการอัพเดท Path ของ Imported Files โดยอัตโนมัตินั่นเอง ถือว่าเป็นอีกหนึ่งฟีเจอร์ที่มีประโยชน์ และช่วยเซฟเวลาได้เป็นอย่าดี หมดสิ้นแล้วกับคืนวันที่ย้ายไฟล์เข้าโฟลเดอร์แล้วต้องไล่อัพเดท Path แต่อัพเดทไม่ครบแล้วต้องมาไล่อีกที
-![](https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)Photo by [Yancy Min](https://unsplash.com/@yancymin?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+
+![](https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ)
+
 **Tooling Metadata**
 
 สำหรับสิ่งนี้หลาย ๆ คนอาจจะไม่ได้ใช้ประโยชน์โดยตรง เพราะตอนนี้ Flutter ได้เพิ่ม Tooling Metadata ต่าง ๆ สำหรับคนที่ต้องการสร้าง Tools ขึ้นมาใช้งานร่วมกับ Flutter โดยประกอบไปด้วย
@@ -184,7 +207,7 @@ Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/pho
 - เพิ่มบรรทัดว่างเสมอหลัง `script` Tags
 - ไม่แยก `if` ที่ไม่จำเป็น สำหรับ `if` ที่อยู่ใกล้กับ Comment
 - เพิ่ม Indent blocks ใน initializers ของ การประกาศตัวแปรแบบหลายตัว
-- ปรับปรุง Null-aware Subscript Syntax จาก `?.[]` เป็น `?[]`
+- ปรับปรุง Null-aware Subscript Syntax จาก `?.[]` เป็น `?[]`
 
 #### Linter (Code Highlighter ของ Dart)
 
@@ -263,6 +286,6 @@ Instagram: @VisualsByRoyalZ | @RoyalZProduction](https://images.unsplash.com/pho
 
 ---
 
-## ****************************************************************📚 Hope you enjoy reading! 📚****************************************************************
+## *📚 Hope you enjoy reading! 📚*
 
 ---

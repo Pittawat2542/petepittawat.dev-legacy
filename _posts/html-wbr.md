@@ -4,6 +4,7 @@ slug: html-wbr
 date: '2020-07-23T08:17:55.000Z'
 tags: Web, HTML
 coverImage: /assets/blog/html-wbr/cover.jpeg
+excerpt: แน่นอนว่าการพัฒนาเว็บไซต์ในปัจจุบัน เราต้องพัฒนาเว็บไซต์ให้มีความสามารถในการแสดงผลบนทุกอุปกรณ์ได้อย่างเหมาะสม สวยงาม และตอบสนองต่อความต้องการของผู้ใช้ ซึ่งนอกเหนือไปจากเรื่องของการจัดวางองค์ประกอบต่าง ๆ บนหน้าเว็บไซต์แล้ว เนื้อหาของเว็บไซต์เองก็ถือเป็นหนึ่งในสิ่งที่สำคัญเช่นกัน
 author:
   name: Pittawat Taveekitworachai
   picture: /assets/blog/authors/pittawat.jpg
@@ -29,6 +30,6 @@ ogImage:
 
 ---
 
-## **📚 Hope you enjoy reading! 📚**
+## 📚 Hope you enjoy reading! 📚*
 
 ---

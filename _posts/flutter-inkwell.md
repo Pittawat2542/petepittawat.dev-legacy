@@ -4,6 +4,7 @@ slug: flutter-inkwell
 date: '2020-06-24T08:10:16.000Z'
 tags: Flutter
 coverImage: /assets/blog/flutter-inkwell/cover.jpeg
+excerpt: ไม่ใช่ทุกปุ่มและการ์ดที่เตรียมมาให้เราใช้งานใน Flutter จะตอบโจทย์การออกแบบได้ทั้งหมด Flutter เองก็ตระหนักถึงความต้องการนี้ดี จึงมี Widget ที่ชื่อว่า GestureDetector มาให้เพื่อมอบ Flexbility ให้มากที่สุดเท่าที่เป็นไปได้กับ Developer ในการรังสรรค์ UI อันสวยงามขึ้นมา แต่อย่างไรก็ตาม GestureDetector แม้ว่าจะมาพร้อมกับความสามารถสารพัด แต่ก็ไม่ตอบโจทย์เสมอไป
 author:
   name: Pittawat Taveekitworachai
   picture: /assets/blog/authors/pittawat.jpg

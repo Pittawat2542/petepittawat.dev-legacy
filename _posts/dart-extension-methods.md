@@ -4,6 +4,7 @@ slug: dart-extension-methods
 date: '2020-08-04T07:39:05.000Z'
 tags: Dart
 coverImage: /assets/blog/dart-extension-methods/cover.jpeg
+excerpt: การใช้งาน Third-party Library นั้นมีความสำคัญเป็นอย่างมาก อย่างไรก็ตามหลายครั้งที่เรามักมีความรู้สึกว่า "ถ้ามี xxx มาด้วยก็ดีสินะ" หรือ "อยากให้ xxx ทำแบบนี้มากกว่าแบบที่ให้มาจังเลย" ปัญหาเหล่านี้ หากเป็น Library ที่เราพัฒนาขึ้นมาเอง หรือเป็นส่วนหนึ่งของโปรแกรมของเราก็คงไม่ใช่ปัญหาอะไรที่จะไปแก้ไขโค้ดในส่วนนั้น ๆ ให้มีความสามารถมากยิ่งขึ้น
 author:
   name: Pittawat Taveekitworachai
   picture: /assets/blog/authors/pittawat.jpg
@@ -105,6 +106,6 @@ Dart เล็งเห็นปัญหานี้ ดังนั้นต�
 
 ---
 
-## ********************************📚 Hope you enjoy reading! 📚********************************
+## *📚 Hope you enjoy reading! 📚*
 
 ---

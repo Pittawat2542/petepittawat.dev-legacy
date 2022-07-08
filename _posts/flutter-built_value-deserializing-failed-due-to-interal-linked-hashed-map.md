@@ -1,5 +1,5 @@
 ---
-title: "Flutter: วิธีแก้ปัญหาใช้ built_value แล้วเจอ Deserializing failed due to '_InternalLinkedHashMap<String, dynamic>' is not subtype of type 'Iterable<dynamic>'"
+title: "Flutter: วิธีแก้ปัญหาใช้ built_value แล้วเจอ Deserializing failed due to '_InternalLinkedHashMap <String, dynamic>' is not subtype of type 'Iterable<dynamic>'"
 slug: flutter-built_value-deserializing-failed-due-to-interal-linked-hashed-map
 date: '2020-12-31T14:00:18.000Z'
 tags: Flutter

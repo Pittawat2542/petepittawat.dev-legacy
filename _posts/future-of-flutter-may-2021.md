@@ -24,37 +24,7 @@ Flutter เป็น UI Toolkit บนภาษา Dart โดยตัว Flutt
 
 โดยในปัจจุบันสถานะของการสนับสนุนแพลตฟอร์มต่าง ๆ ดังนี้
 
-*อัพเดต ณ วันที่ 22 พฤษภาคม 2564*
-PlatformSupport LevelAndroidStableiOSStableWebStableWindowsBetaLinuxBetamacOSBetaWindows (UWP)AlphaTizenAnnouncedEmbedded LinuxAnnounced[
-
-Supported platforms
-
-The platforms that Flutter supports by platform version.
-
-![](https://flutter.dev/images/favicon.png)Flutter Logo
-
-![](https://flutter.dev/images/flutter-logo-sharing.png)
-](https://flutter.dev/docs/development/tools/sdk/release-notes/supported-platforms)[
-
-What’s new in Flutter 2.2
-
-Flutter 2.2 focuses on polish and optimization, including iOS performance improvements, Android deferred components, updated service workers and more!
-
-![](https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png)FlutterChris Sells
-
-![](https://miro.medium.com/max/1200/0*fS4WbRPwmo_FQgDo)
-](https://medium.com/flutter/whats-new-in-flutter-2-2-fd00c65e2039)[
-
-Samsung porting Flutter to Galaxy Watch and Tizen devices - 9to5Google
-
-Samsung is working to make it possible to create apps for Galaxy Watch, Smart TVs, and more Tizen devices with Google’s Flutter SDK.
-
-![](https://9to5google.com/wp-content/themes/9to5-2015/images/favicons/9to5google/icon-192x192.png)9to5GoogleKyle Bradshaw
-
-![](https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2021/05/flutter-tizen.png?resize&#x3D;1200%2C628&amp;quality&#x3D;82&amp;strip&#x3D;all&amp;ssl&#x3D;1)
-](https://9to5google.com/2021/05/18/samsung-tizen-flutter-sdk-galaxy-watch/)
-
-จากตารางนี้จะเห็นได้ว่า Flutter เองพยายามทำตัวเองให้กลายเป็น universal toolkit ที่สามารถเขียนแอปแล้วนำโค้ดวนใหญ่มา reuse ได้อย่างง่ายดายใน platform อื่น ๆ ซึ่งเรายังคงต้องยอมรับว่าแพลตฟอร์มต่าง ๆ เองก็มี idiom ของตัวเองที่แตกต่างกัน การใช้ UI & UX และ features set แบบเดียวกันกับทุกแพลตฟอร์มย่อมไม่ใช่ความคิดที่ดีอย่างแน่นอน โดยความพยายามล่าสุดของ Flutter ในเรื่องนี้ก็การพยายามนำเสนอสิ่งที่เรียกว่า Platform Adaptive ไม่ใช่การพยายามทำตัว responsive แบบเดียวกับการแก้ปัญหาของเว็บ เพราะไม่เพียงแค่คิดถึง UI & UX เท่านั้น โดยผู้ที่สนใจสามารถศึกษาเพิ่มเติมได้จาก
+Flutter เองพยายามทำตัวเองให้กลายเป็น universal toolkit ที่สามารถเขียนแอปแล้วนำโค้ดวนใหญ่มา reuse ได้อย่างง่ายดายใน platform อื่น ๆ ซึ่งเรายังคงต้องยอมรับว่าแพลตฟอร์มต่าง ๆ เองก็มี idiom ของตัวเองที่แตกต่างกัน การใช้ UI & UX และ features set แบบเดียวกันกับทุกแพลตฟอร์มย่อมไม่ใช่ความคิดที่ดีอย่างแน่นอน โดยความพยายามล่าสุดของ Flutter ในเรื่องนี้ก็การพยายามนำเสนอสิ่งที่เรียกว่า Platform Adaptive ไม่ใช่การพยายามทำตัว responsive แบบเดียวกับการแก้ปัญหาของเว็บ เพราะไม่เพียงแค่คิดถึง UI & UX เท่านั้น โดยผู้ที่สนใจสามารถศึกษาเพิ่มเติมได้จาก
 
 อีกหนึ่งเรื่องที่ Flutter เองพยายามนำเสนอเป็นจุดแข็งของตัวเองคือเรื่องของ ecosystem สำหรับนักพัฒนา ซึ่ง Flutter พยายามบอกเราว่าสิ่งต่าง ๆ ใน Flutter ที่จำเป็นสำหรับนักพัฒนา เช่น plugin ที่ integrate เข้ากับ IDE ต่าง ๆ หรือจะเป็น DevTool เองก็เติบโตตาม Flutter ไปเช่นกัน ซึ่งต้องยอมรับว่าด้วยความที่เป็น open source แทบทุกอย่างทั้งตัวภาษา Dart, Flutter, DevTools, Community นั่นทำให้ปัญหาต่าง ๆ ถูกพบและแก้ไขได้อย่างรวดเร็ว รวมไปถึงที่ทีม internal ของ Google ที่ดูแล Flutter เองก็คอยรับฟังข้อเสนอแนะต่าง ๆ จากชุมชนนักพัฒนา เช่น เรื่องของ iOS Jank ที่กำลังจะถูกแก้ไขใน Stable update ถัดไปเร็ว ๆ นี้ (หนึ่งในปัญหาที่ hold นักพัฒนาหลาย ๆ คนออกจากการนำ Flutter ไปใช้ระดับ production โดยลักษณะของปัญหา คือ animation ภายในแอปที่สร้างจาก Flutter บน iOS ไม่ว่าจะใช้ hardware ที่ใหม่ขนาดไหนก็จะกระตุกเสมอเมื่อรันเป็นครั้งแรก)
 

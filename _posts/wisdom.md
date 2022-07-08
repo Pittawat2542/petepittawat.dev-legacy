@@ -44,7 +44,7 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 
 ลองมาดูอีกมุมมองหนึ่งของปัญญาจากพจนานุกรมต่างประเทศกันบ้าง โดยผู้เขียนเองได้เลือก Oxford Learner's Dictionaries มาในทีนี้โดย ได้ให้ความหมายของปัญญาไว้ว่า
 
-> *(noun) *the ability to make sensible decisions and give good advice because of the experience and knowledge that you have
+> *(noun)* the ability to make sensible decisions and give good advice because of the experience and knowledge that you have
 
 อ้างอิง: [Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/wisdom?q=wisdom)
 
@@ -75,9 +75,9 @@ excerpt: ปัญญา หรือในภาษาอังกฤษ wisdom
 
 หากต้องการจะตอบคำถามนี้อย่างแน่ชัด คงเลี่ยงไม่ได้ที่จะต้องยกนิยามของทั้งสองคำมาเปรียบเทียบกัน
 ความรู้ (Knowledge) ปัญญา (Wisdom)(noun) the information, understanding and skills that you gain through education or experience(noun) the ability to make sensible decisions and give good advice because of the experience and knowledge that you have
-อ้างอิง: [[Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/knowledge?q=knowledge)](https://www.oxfordlearnersdictionaries.com/definition/english/wisdom?q=wisdom)
+อ้างอิง: [Oxford Learner's Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/knowledge?q=knowledge)
 
-เป็นที่น่าสนใจว่าความรู้นั้นถูกให้นิยามไว้ว่า คือ **ข้อมูล****ความเข้าใจ** และ**ทักษะ** ที่สามารถได้รับผ่าน**การเรียน**หรือ**ประสบการณ์** จะเห็นได้ว่านิยามนี้นั้นค่อนข้างใกล้เคียงกับความหมายของปัญญาในพจนานุกรม ฉบับราชบัณฑิตยสถาน พ.ศ.๒๕๕๔
+เป็นที่น่าสนใจว่าความรู้นั้นถูกให้นิยามไว้ว่า คือ **ข้อมูล** **ความเข้าใจ** และ**ทักษะ** ที่สามารถได้รับผ่าน**การเรียน**หรือ**ประสบการณ์** จะเห็นได้ว่านิยามนี้นั้นค่อนข้างใกล้เคียงกับความหมายของปัญญาในพจนานุกรม ฉบับราชบัณฑิตยสถาน พ.ศ.๒๕๕๔
 
 โดยสรุปแล้วเราอาจตอบคำถามข้างต้นได้ว่าความรู้เป็นสิ่งที่เรารู้ ส่วนปัญญาเป็นความสามารถในการตัดสินใจและการให้คำแนะนำนั่นเอง
 

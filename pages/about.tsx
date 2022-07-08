@@ -13,7 +13,7 @@ const About = () => {
 				<Container>
 					<div className='flex'>
 						{/* <h1>ABOUT ME</h1>*/}
-						<Image src='/assets/about/pete.png' layout='fill' alt='Pete' />
+						{/* <Image src='/assets/about/pete.png' layout='fill' alt='Pete' /> */}
 						<h1 className='text-center'>Coming Soon</h1>
 					</div>
 				</Container>

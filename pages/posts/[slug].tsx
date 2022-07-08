@@ -40,7 +40,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
 									property='og:description'
 									content={post.excerpt}
 								/>
-								<meta property='og:url' content={`https://petepittawat.dev/blog/${post.slug}`} />
+								<meta property='og:url' content={`https://www.petepittawat.dev/blog/${post.slug}`} />
 								<meta property='og:image' content={post.ogImage.url} />
 							</Head>
 							<PostHeader

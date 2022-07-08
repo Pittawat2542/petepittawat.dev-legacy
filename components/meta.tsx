@@ -39,14 +39,13 @@ const Meta = () => {
 
 			<meta property='og:title' content='PETEPITTAWAT.DEV' />
 			<meta property='og:type' content='website' />
-			<meta property='og:image' content={HOME_OG_IMAGE_URL} />
-			<meta property='og:url' content='https://petepittawat.dev/' />
-			<meta name='twitter:card' content='summary_large_image' />
-
-			<meta
+      <meta
 				property='og:description'
 				content='Where Technology Can Enhance Our Lives.'
 			/>
+      <meta property='og:url' content='https://petepittawat.dev/' />
+			<meta property='og:image' content={HOME_OG_IMAGE_URL} />
+			<meta name='twitter:card' content='summary_large_image' />
 			<meta property='og:site_name' content='PETEPITTAWAT.DEV' />
 			<meta name='twitter:image:alt' content='PETEPITTAWAT.DEV' />
 		</Head>

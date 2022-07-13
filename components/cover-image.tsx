@@ -17,6 +17,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
 			height='56%'
 			layout='responsive'
 			objectFit='contain'
+			priority={true}
 			className={cn('shadow-sm', {
 				'hover:shadow-lg transition-shadow duration-200': slug,
 			})}

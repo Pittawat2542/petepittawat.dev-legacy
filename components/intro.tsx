@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import darkLogoSrc from '../public/assets/logo-dark.png';
 import lightLogoSrc from '../public/assets/logo-light.png';
 

@@ -1,6 +1,6 @@
 import Container from '../components/container';
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from "next/image";
 import Layout from '../components/layout';
 
 const About = () => {

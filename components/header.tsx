@@ -6,7 +6,6 @@ const Header = () => {
 			<Link href='/' className='hover:underline'>
 				PETEPITTAWAT.DEV
 			</Link>
-			.
 		</h2>
 	);
 };
